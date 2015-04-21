@@ -209,7 +209,7 @@
         _messageTextView.textAlignment = self.alertStyler.messageAlignment;
         _messageTextView.scrollEnabled = YES;
         _messageTextView.editable = NO;
-        [_messageTextView setContentInset:UIEdgeInsetsMake(0, 0, 0, 0)];
+        [_messageTextView setContentInset:UIEdgeInsetsZero];
         [_messageTextView scrollRangeToVisible:NSMakeRange(0, 0)];
     }
     
